@@ -110,6 +110,7 @@ class category(customer):
                 j+=1
         ch = int(input('Enter Number of Category : '))
         print(k[ch-1])
+        k = 1
 
 # ============================================ MAIN ============================================
 ch = 5
