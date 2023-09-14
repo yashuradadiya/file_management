@@ -57,9 +57,9 @@ class customer(operation):
             r_id  = int(input("Enter Register Number : "))
             pass_w = input("ENter PassWord : ")
             s.split_customer()
-            for i in range(len(s.f)-1):
+            for i in range(len(s.f)):
                 if int(s.f[i][0][1])==r_id and s.f[i][2][1]==pass_w:
-                    s.acc = i
+                    s.acc = r_id
                     ch=1
             if ch==0:
                 print("Enter Valid Id or Password")
@@ -103,14 +103,32 @@ class category(customer):
         s.split_category()
         j=1
         k=[]
-        for i in range(len(s.h)):
+        for i in range(len(s.h)-1):
             if int(s.h[i][1][1]) == s.acc:
                 print(j,'. ',s.h[i][0][1])
                 k.append(s.h[i])
                 j+=1
-        ch = int(input('Enter Number of Category : '))
-        print(k[ch-1])
-        k = 1
+        print(j)
+        ch=0
+        while ch>=j-1 or ch<=0:
+            ch = int(input('Enter Number of Category : '))
+
+        for i in range(len(s.h)):
+            if s.h[i][1][1]==k[ch-1][1][1] and s.h[i][0][1]==k[ch-1][0][1]:
+                del_id = i
+        for i in range(del_id,len(s.h)-1):
+            s.h[i] = s.h[i+1]
+        j1 = []
+        for i in range(len(s.h)-1):
+            k1 = []
+            for j in range(len(s.h[i])):
+                k1.append(' = '.join(s.h[i][j]))
+            j1.append('\n'.join(k1))
+        j1.append('')
+        i1 = "\n\n---------------------------------\n\n".join(j1)
+        file = open('category.txt','w')
+        file.write(i1)
+        file.close()
 
 # ============================================ MAIN ============================================
 ch = 5
@@ -135,9 +153,7 @@ while i!=0:
     if i==1:
         obj.categories()
     elif i==2:
-        obj.withdraw()
-    elif i==3:
-        obj.show_detils()
+        obj.products()
     elif i==0:
         print('--------------Thank You------------------')
     else :
