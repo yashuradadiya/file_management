@@ -1,5 +1,5 @@
 Roll_no. = 1 
- Name = Yashvi 
+ Name = xyz 
  sub1 = 99 
  sub2 = 98 
  sub3 = 97 
@@ -15,7 +15,7 @@ Roll_no. = 1
 -----------------------------------------------
 
 Roll_no. = 2 
- Name = Mahek 
+ Name = xyz_1 
  sub1 = 65 
  sub2 = 65 
  sub3 = 51 
@@ -31,7 +31,7 @@ Roll_no. = 2
 -----------------------------------------------
 
 Roll_no. = 3 
- Name = Sakshi 
+ Name = abc 
  sub1 = 96 
  sub2 = 65 
  sub3 = 65 
@@ -47,7 +47,7 @@ Roll_no. = 3
 -----------------------------------------------
 
 Roll_no. = 4 
- Name = Yash 
+ Name = abc_1 
  sub1 = 65 
  sub2 = 63 
  sub3 = 33 
@@ -63,7 +63,7 @@ Roll_no. = 4
 -----------------------------------------------
 
 Roll_no. = 6 
- Name = Asmita 
+ Name = xyz_2 
  sub1 = 20 
  sub2 = 56 
  sub3 = 21 
@@ -79,31 +79,31 @@ Roll_no. = 6
 -----------------------------------------------
 
 Roll_no. = 7 
- Name = Zarna 
+ Name = abc_2 
  sub1 = 45 
  sub2 = 44 
- sub3 = 46 
+ sub3 = 64 
  sub4 = 47 
  sub5 = 43 
- Total = 225 
- Per = 45.0 
+ Total = 243 
+ Per = 48.6 
  Min = 43 
- Max = 47 
+ Max = 64 
  Result = PASS 
  Grade = Third Class 
  
 -----------------------------------------------
 
 Roll_no. = 5 
- Name = Chndni 
+ Name = xyz_3 
  sub1 = 98 
  sub2 = 65 
- sub3 = 37 
+ sub3 = 69 
  sub4 = 56 
  sub5 = 66 
- Total = 322 
- Per = 64.4 
- Min = 37 
+ Total = 354 
+ Per = 70.8 
+ Min = 56 
  Max = 98 
  Result = PASS 
  Grade = Second Class 

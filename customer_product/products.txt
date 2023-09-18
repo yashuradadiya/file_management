@@ -1,0 +1,28 @@
+Name = Apple
+Category = Fruits
+Quntiry = 10
+User_id = 1
+
+-------------------------------------------------------------
+
+Name = Chair
+Category = Furnitures
+Quntiry = 25
+User_id = 2
+
+-------------------------------------------------------------
+
+Name = Bulb
+Category = Electronics
+Quntiry = 30
+User_id = 2
+
+-------------------------------------------------------------
+
+Name = Almonds
+Category = Nuts
+Quntiry = 25
+User_id = 1
+
+-------------------------------------------------------------
+

@@ -76,7 +76,7 @@ class result:
             s.f[r][1][1] = name
         elif ch==2:
             sub = int(input("Which Subject Marks You Want to Change : "))
-            mark_new = input("Enter Marks of sub "+str(sub+1)+" : ")
+            mark_new = input("Enter Marks of sub "+str(sub)+" : ")
             s.f[r][sub+1][1] = mark_new
             s.marks = []
             for i in range(5):
@@ -102,7 +102,7 @@ class result:
         s.saperate()
         from tabulate import tabulate
         stu = []
-        for i in range(len(s.f)):
+        for i in range(len(s.f)-1):
             stu_1 = []
             for j in range(len(s.f[i])):
                 for k in range(len(s.f[i][j])):

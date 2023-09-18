@@ -1,29 +1,24 @@
+Name = Fruits
+User_Id = 1
+
+---------------------------------
+
+Name = Furnitures
+User_Id = 2
+
+---------------------------------
+
 Name = Electronics
 User_Id = 2
 
 ---------------------------------
 
-Name = Furniture
-User_Id = 2
-
----------------------------------
-
-Name = car
+Name = Cloths
 User_Id = 3
 
 ---------------------------------
 
-Name = mackup kit
-User_Id = 4
-
----------------------------------
-
-Name = vegetable
-User_Id = 1
-
----------------------------------
-
-Name = nuts
+Name = Nuts
 User_Id = 1
 
 ---------------------------------
